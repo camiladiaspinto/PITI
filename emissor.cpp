@@ -10,7 +10,7 @@ void loop() {
     byte buffer[128];
     int bytesRead = Serial.readBytes(buffer, sizeof(buffer));
     
-    // Enviar dados recebidos para o módulo serial 1
+    // Enviar dados recebidos para o 1
     Serial1.write(buffer, bytesRead);
 
     Serial1.flush();

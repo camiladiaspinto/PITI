@@ -17,8 +17,6 @@ def receive_single_byte(serial_port, expected_byte):
 
 
 def receive_frame(serial_port):
-    # Encontrar o bit de início
-    print(serial_port)
     start_bit = serial_port.read(1)
     #print("start bit fora do loop: ", start_bit)
     while start_bit != bytes([0x0E]):

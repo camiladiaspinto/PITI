@@ -99,7 +99,7 @@ if __name__ == "__main__":
     mode = input("Digite 'E' para emissor ou 'R' para receptor: ").upper()
 
     if mode == 'E':
-        input_file = input("Insira o nome do arquivo: ")
+        input_file = input("Insira o nome do ficheiro: ")
         try:
             serial_port = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
             print("Conexão estabelecida com sucesso.")

@@ -1,0 +1,2 @@
+No âmbito da unidade curricular de Projeto Integrador em Telecomunicações e Informática, foi proposto aos alunos construir um protótipo de um sistema que utiliza a tecnologia de comunicação sem fio com luz visível ou infravermelho, como base para uma aplicação de chat, que permita a conversação, em tempo real, entre dois
+computadores pessoais (PC - Personal Computer), permitindo que além de mensagens, seja possível a transferência de ficheiros.O sistema foi desenvolvido com auxílios ao Arduino IDE, Visual Studio Code , linguagem de programação Python e C++. 
